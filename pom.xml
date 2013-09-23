@@ -18,6 +18,7 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
+			<version>4.2.5.Final</version>
 		</dependency>
 
 		<!-- Because this is a web app, we also have a dependency on the servlet 
@@ -25,6 +26,7 @@
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
 		</dependency>
 
 		<!-- Hibernate uses slf4j for logging, for our purposes here use the simple 
@@ -32,11 +34,13 @@
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-simple</artifactId>
+			<version>1.7.5</version>
 		</dependency>
 
 		<dependency>
 			<groupId>javassist</groupId>
 			<artifactId>javassist</artifactId>
+			<version>3.3</version>
 		</dependency>
 	</dependencies>
 	<build>
