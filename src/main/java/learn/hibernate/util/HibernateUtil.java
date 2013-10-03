@@ -1,4 +1,4 @@
-package learn.hibernate.test;
+package learn.hibernate.util;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
