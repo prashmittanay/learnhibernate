@@ -5,4 +5,20 @@
 
 <hibernate-mapping package="learn.hibernate.beans">
 	
+	<!-- Mapping Event object to EVENTS table -->
+	<class name="Event" table="EVENTS">
+		
+		<!-- declaring the identified property -->
+		<!-- mapping the id to primary key in table -->
+		<id name="id" column="EVENT_ID">
+		
+			<!-- identifier generation stategy -->
+			<generator class="native"/>
+		</id>
+		
+		<property name="date" type="timestamp" column="EVENT_DATE"/>
+		<property name="title"/>
+	</class>
 </hibernate-mapping>
+
+<!-- timestamp: Hibernate mapping type. Used by hibernate to convert object to and fro -->
