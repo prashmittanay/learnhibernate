@@ -9,6 +9,7 @@ public class HibernateUtil {
 	// used to retrieve individual Session objects
 	private static final SessionFactory SESSION_FACTORY = buildSessionFactory();
 
+	@SuppressWarnings("deprecation")
 	private static SessionFactory buildSessionFactory() {
 		try {
 			// create the SessionFactory from hibernate.cfg.xml
